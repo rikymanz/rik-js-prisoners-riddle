@@ -107,13 +107,12 @@ const init = () =>{
 
         document.getElementById('ok').innerHTML = `Successo : ${success}`
         document.getElementById('nook').innerHTML = `Insuccesso : ${unsuccess}`
-
-        document.getElementById('ripetition').innerHTML = `${index+1} / ${ripetition}`
     
         
     }
     
 
 }
+
 
 document.getElementById('startButton').addEventListener('click', init )
